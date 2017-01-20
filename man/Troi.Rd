@@ -22,9 +22,10 @@ Troi()
 \seealso{
 Other Darmok: \code{\link{Beverly}},
   \code{\link{Computer}}, \code{\link{Data}},
-  \code{\link{Geordi}}, \code{\link{Guinan}},
-  \code{\link{Picard}}, \code{\link{Pulaski}},
-  \code{\link{Q}}, \code{\link{Riker}},
-  \code{\link{Wesley}}, \code{\link{Worf}}
+  \code{\link{Dathon}}, \code{\link{Geordi}},
+  \code{\link{Guinan}}, \code{\link{Picard}},
+  \code{\link{Pulaski}}, \code{\link{Q}},
+  \code{\link{Riker}}, \code{\link{Wesley}},
+  \code{\link{Worf}}
 }
 

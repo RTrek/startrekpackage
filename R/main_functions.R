@@ -205,3 +205,30 @@ the_boy <- function(){
 Worf <- function(){
     return_random_sentance("WORF")
 }
+
+
+#' Dathon
+#'
+#' The enigmatic Tamarians also known as
+#' the Children of Tama are called "incomprehensible.
+#' Although meetings with this species has not lead
+#' to conflicts communications was never possible.
+#' Dathon, the chief of this folk, speaks in riddles.
+#' "Shaka. When the walls fell", "Temba. His arms wide."
+#'
+#' @aliases Darmok Jalad
+#' @return a phrase
+#' @export
+#' @family Darmok
+#' @inheritParams Picard
+#' @examples
+#' Dathon()
+Dathon <- function(){
+    return_random_sentance("DATHON")
+}
+
+#' @rdname Dathon
+Darmok <- function(){
+    Dathon()
+}
+

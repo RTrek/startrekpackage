@@ -3,6 +3,7 @@
 export(Beverly)
 export(Computer)
 export(Data)
+export(Dathon)
 export(Geordi)
 export(Guinan)
 export(Picard)

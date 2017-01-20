@@ -26,9 +26,9 @@ Picard()
 \seealso{
 Other Darmok: \code{\link{Beverly}},
   \code{\link{Computer}}, \code{\link{Data}},
-  \code{\link{Geordi}}, \code{\link{Guinan}},
-  \code{\link{Pulaski}}, \code{\link{Q}},
-  \code{\link{Riker}}, \code{\link{Troi}},
+  \code{\link{Dathon}}, \code{\link{Geordi}},
+  \code{\link{Guinan}}, \code{\link{Pulaski}},
+  \code{\link{Q}}, \code{\link{Riker}}, \code{\link{Troi}},
   \code{\link{Wesley}}, \code{\link{Worf}}
 }
 
