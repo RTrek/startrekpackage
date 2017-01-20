@@ -1,0 +1,19 @@
+---
+title: "README"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This package gives you the option to talk like the main characters
+of star trek The next generation. 
+
+This package is proudly brought to you  by the RTrek community. 
+
+# How to use this package
+
+call functions with the name of the characters
+`Picard()` , `Geordi()`, etc
+
