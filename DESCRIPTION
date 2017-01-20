@@ -1,8 +1,9 @@
 Package: startrek
-Title: What the Package Does (one line, title case)
+Title: Have You Ever Wanted to Randomly Throw TNG Phrases in Your Console
 Version: 0.0.0.9000
 Authors@R: "Roel M. Hogervorst <hogervorst.rm@gmail.com> [cre, aut]"
-Description: What the package does (one paragraph).
+Description: Creates enourmous value by just throwing random 
+    sentances from the scripts of TNG.
 Depends: R (>= 3.3.2)
 License: GPL-3
 Encoding: UTF-8
