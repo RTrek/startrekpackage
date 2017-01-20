@@ -11,3 +11,5 @@ How to use this package
 =======================
 
 call functions with the name of the characters `Picard()` , `Geordi()`, etc
+
+Or call the sentance creator with `talk_like(Picard)`
