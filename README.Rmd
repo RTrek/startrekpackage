@@ -30,7 +30,7 @@ Guinan()
 This package is not on cran. Nor should it be.
 install with:
 ```{r eval=FALSE}
-devtools::install_github("Rtrek/startrek")
+devtools::install_github("Rtrek/startrekpackage")
 ```
 
 ## Notes

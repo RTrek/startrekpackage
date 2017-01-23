@@ -232,3 +232,30 @@ Darmok <- function(){
     Dathon()
 }
 
+
+
+#' Call a random phrase from Q, Worf, Wesley, Picard, Data or Guinan
+#'
+#' Usefull if you want a phrase at the end of a long process.
+#' @export
+#' @examples
+#' random_tng_character()
+random_tng_character <- function(){
+    number <- sample(letters[1:6],size = 1)
+    out <- switch(number,
+           a = Q(),
+           b = Worf(),
+           c = Wesley(),
+           d = Picard(),
+           e = Data(),
+           f = Guinan()
+    )
+    who <- switch(number,
+                  a = "Q (annoyingly):",
+                  b = "Worf:",
+                  c = "Wesley:",
+                  d = "Picard:",
+                  e = "Data:",
+                  f = "Guinan:")
+    paste(who, out, collapse = " ")
+}

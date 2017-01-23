@@ -17,13 +17,13 @@ library(startrek)
 Picard()
 ```
 
-    ## [1] " A little stiff, but otherwise fine."
+    ## [1] " I thought I'd take along some light reading... in case I got bored."
 
 ``` r
 Guinan()
 ```
 
-    ## [1] " Oh... like figuring out how much fuel it takes to power this ship... or deciding whether to explore one star system or another... arranging schedules, making lists, counting inventory, or... wondering if little girls should go to bed at seven... or be allowed to stay up till eight."
+    ## [1] " And then... I found myself standing there, staring at him. Curiosity, I figured... just curiosity."
 
 Installation
 ------------
@@ -31,7 +31,7 @@ Installation
 This package is not on cran. Nor should it be. install with:
 
 ``` r
-devtools::install_github("Rtrek/startrek")
+devtools::install_github("Rtrek/startrekpackage")
 ```
 
 Notes

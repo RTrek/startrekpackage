@@ -1,0 +1,44 @@
+---
+title: "Use of this package"
+author: "Roel M. Hogervorst"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+An R-package: the final frontier. These are the voyages of the R-package startrek. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before. Or to give you a random phrase from one of the main characters in the TNG series.
+
+You have the following options:
+
+```{r options}
+library(startrek)
+Guinan()
+Worf()
+Wesley()
+Picard()
+Beverly()
+Data()
+Geordi()
+Troi()
+Pulaski()
+Q()
+Riker()
+```
+
+There are also other options
+```{r other options}
+Computer()
+random_tng_character()
+```
+
+
+## Underlying technology
+
+The package uses a state of the art data.frame that contains
+all the phrases scraped from the original [episode scripts](https://github.com/RTrek/TNG "data only"). 
+
+The code filters the dataframe on character and chooses
+a random phrase. 
